@@ -1,0 +1,36 @@
+.popup-container {
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    bottom: 700px;
+}
+
+.popup-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    padding: 20px;
+    background-color: greenyellow;
+    border: 2px solid rgb(0, 69, 0);
+    border-radius: 10px;
+    color: rgb(0, 69, 0);
+    animation: popup-animation 2s;
+    animation-fill-mode: both;
+}
+
+@keyframes popup-animation {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+

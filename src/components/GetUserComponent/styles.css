@@ -1,0 +1,23 @@
+.get-user__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%
+}
+
+.get-user__input {
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.get-user__button {
+    width: 50%;
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+    background-color: greenyellow;
+    color: rgb(0, 63, 0);
+    font-weight: 700;
+}
